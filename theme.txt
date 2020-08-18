@@ -1,0 +1,198 @@
+# Sublime Text theme
+# Darío Quiñones - 2020 - https://github.com/Darox21
+
+# A Sublime-like theme for processing
+
+
+# STATUS
+# Status messages (1 file added to sketch, errors, etc)
+status.notice.fgcolor = #F8F8F2
+status.notice.bgcolor = #7e7e7e
+
+status.error.fgcolor = #F8F8F2
+status.error.bgcolor = #F8F8F2
+
+status.warning.bgcolor = #F8F8F2
+status.warning.fgcolor = #404040
+
+status.url.fgcolor = #cccccc
+status.font = processing.sans,plain,13
+# For the clipboard icon, needs to be a little larger on macOS
+status.emoji.font = Dialog,plain,19
+status.emoji.font.macosx = Dialog,plain,22
+
+
+# HEADER TABS
+# Settings for the tab area at the top.
+header.text.font = processing.sans,bold,14
+header.text.selected.color = #F8F8F2
+header.text.unselected.color = #90918B
+
+header.gradient.top = #181915
+header.gradient.bottom = #181915
+
+header.tab.selected.color = #282923
+header.tab.unselected.color = #20211C
+header.tab.arrow.color = #90918B
+
+header.tab.modified.color = #ef8115
+
+
+# FOOTER TABS
+footer.text.font = processing.sans,bold,12
+
+footer.text.selected.color = #F8F8F2
+footer.text.unselected.color = #90918B
+
+footer.gradient.top = #181915
+footer.gradient.bottom = #181915
+
+footer.tab.arrow.color = #90918B
+footer.tab.selected.color = #282923
+footer.tab.unselected.color = #20211C
+
+footer.updates.color = #fd7f15
+
+
+# CONSOLE
+# The font is handled by preferences, so its size/etc are modifiable.
+console.color = #181915
+console.output.color = #F8F8F2
+
+# text color for errors printed in the console
+console.error.color = #99211e
+
+
+# TOOLBAR BUTTONS
+buttons.bgcolor = #000000
+
+# for the debug and mode buttons
+#reversed.gradient.top = #10212f
+#reversed.gradient.bottom = #122637
+
+## size of divider between editing area and the console
+#divider.size = 0
+## the larger divider on windows is ugly with the little arrows
+## this makes it large enough to see (mouse changes) and use, 
+## but keeps it from being annoyingly obtrusive
+#divider.size.windows = 2
+
+divider.height = 9
+divider.color = #CCCCCC
+divider.dot.diameter = 3
+divider.dot.color = #505050
+
+
+# TOOLBAR BUTTON TEXT
+toolbar.rollover.font = processing.sans,plain,12
+toolbar.rollover.color = #F8F8F2
+
+toolbar.gradient.top = #282923
+toolbar.gradient.bottom = #3E3D32
+
+
+# MODE SELECTOR
+
+mode.title.font = processing.sans,plain,12
+mode.title.color = #F8F8F2
+
+mode.background.color = #282923
+mode.outline.color = #90918B
+
+
+# EDITOR - GUTTER
+# (side number line)
+
+editor.gradient.top = #181915
+editor.gradient.bottom = #181915
+
+editor.gutter.text.font = processing.sans,plain,11
+editor.gutter.text.color = #909180
+
+# bgcolor for the current (highlighted) line
+editor.gutter.linehighlight.color=#3E3D32
+
+# left- and right-hand gutter color
+editor.gutter.bgcolor = #122535
+
+# color of vertical separation line
+#gutter.linecolor = #e9e9e9
+# space (in px) added to left and right of gutter markers
+editor.gutter.padding = 3
+
+# marker for breakpointed lines in left hand gutter (2 ascii characters)
+#editor.gutter.breakpoint.marker = <>
+#editor.gutter.breakpoint.marker.color = #4a545e
+
+# marker for the current line in left hand gutter (2 ascii characters)
+#editor.gutter.currentline.marker = ->
+#editor.gutter.currentline.marker.color = #e27500
+
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #F8F8F2
+editor.bgcolor = #282923
+
+# highlight for the current line
+editor.linehighlight.color=#48473D
+editor.linehighlight=true
+
+editor.caret.color = #ffffff
+editor.selection.color = #48473D
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #7e7e7e,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #999999
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #F8F8F2
+
+# squiggly line underneath errors in the editor
+editor.error.underline.color = #C40E0E
+# squiggly line underneath warnings
+editor.warning.underline.color = #ffc30e
+# lines next to the scrollbar showing where errors are located
+editor.column.error.color = #9F1613
+editor.column.warning.color = #ffc30e
+
+# not in use?
+# breakpoint.bgcolor = #f0f0f0
+# currentline.bgcolor = #ffff96
+
+
+# ERRORS
+
+errors.header.font = processing.sans,plain,12
+errors.header.bgcolor = #20211C
+errors.header.fgcolor = #F8F8F2
+errors.row.font = processing.sans,plain,12
+errors.row.fgcolor = #F8F8F2
+errors.row.bgcolor = #20211C
+errors.selection.fgcolor = #F8F8F2
+errors.selection.bgcolor = #282923
+errors.selection.error.bgcolor = #20211C
+errors.selection.warning.bgcolor = #20211C
+#errors.indicator.size = 3
+errors.indicator.error.color = #9E0A0A
+errors.indicator.warning.color = #EF8115
+
+
+manager.tab.selected.color = #e0fffd
+manager.tab.unselected.color = #2d4251
+manager.tab.text.font = processing.sans,bold,14
+manager.tab.text.selected.color = #000000
+manager.tab.text.unselected.color = #F8F8F2
+# orange circle for updates
+manager.tab.update.color = #ed7f15
+manager.tab.gradient.top = #132638
+manager.tab.gradient.bottom = #122535
+manager.tab.background = #132638
+
+# tree for Examples and Sketchbook windows
+tree.font = processing.sans,plain,12
