@@ -22,6 +22,7 @@ Replace the `theme.txt` file with this one
 
 Inside the `preferences.txt` replace the `editor.token` lines with the `preferences-edit.txt`
   * Windows: `%AppData%\Roaming\Processing\preferences.txt`
+
 `preferences.txt` has many other options beside just text color, It's to not alter your own configuration.
  
 
