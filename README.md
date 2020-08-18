@@ -8,8 +8,8 @@ Inspired by [Jeff Thompson](https://github.com/jeffThompson/DarkProcessingTheme_
 
 ## CONTENTS
 
-* `theme.txt`: Has the General changes
-* `preferences-edit.txt`: Has the Changes to the text colors preferences
+  * `theme.txt`: Has the General changes
+  * `preferences-edit.txt`: Has the Changes to the text colors preferences
 
 ## INSTALLATION
 
@@ -20,7 +20,8 @@ breaks something.
 Replace the `theme.txt` file with this one
   * Windows: `C:\Program Files\Processing-{Version}\lib\theme.txt`
 
-Inside the `preferences.txt` replace the `editor.token` lines with the `preferences-edit.txt`,  
-preferences has many other options beside just text color, It's to not alter your own configuration.
- * Windows: `%AppData%\Roaming\Processing\preferences.txt`
+Inside the `preferences.txt` replace the `editor.token` lines with the `preferences-edit.txt`
+  * Windows: `%AppData%\Roaming\Processing\preferences.txt`
+`preferences.txt` has many other options beside just text color, It's to not alter your own configuration.
+ 
 
