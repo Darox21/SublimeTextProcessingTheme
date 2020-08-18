@@ -20,7 +20,7 @@ breaks something.
 Replace the `theme.txt` file with this one
   * Windows: `C:\Program Files\Processing-{Version}\lib\theme.txt`
 
-Inside the `preferences.txt` replace the `editor.token` lines with the `preferences-edit.txt`
+Inside the `preferences.txt`: replace the `editor.token.{name} = {color}` lines with the variables from`preferences-edit.txt`
   * Windows: `%AppData%\Roaming\Processing\preferences.txt`
 
 `preferences.txt` has many other options beside just text color, It's to not alter your own configuration.
