@@ -1,4 +1,4 @@
-![screenshot](https://raw.github.com/Darox21/SublimeTextProcessingTheme/master/screenshot.png)
+![screenshot](https://raw.github.com/Darox21/SublimeTextProcessingTheme/master/Screenshot.png)
 
 # SublimeText Processing Theme
 
